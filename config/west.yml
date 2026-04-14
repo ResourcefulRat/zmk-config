@@ -17,6 +17,10 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
+    # home row keys
+    - name: zmk-helpers
+      remote: urob
+      revision: main
     # nice_oled - nice_epaper
     - name: zmk-nice-oled
       remote: mctechnology17
