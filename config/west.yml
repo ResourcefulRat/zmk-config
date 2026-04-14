@@ -1,5 +1,13 @@
 manifest:
+
+manifest:
+  defaults:
+    remote: urob
+    revision: v0.3 # Pin everything to v0.3
+
   remotes:
+    - name: urob
+      url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # dongle_display
