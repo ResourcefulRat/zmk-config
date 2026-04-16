@@ -72,11 +72,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1           &kp N2           &kp N3             &kp N4        &kp N5                                 &kp N6                   &kp N7                 &kp N8              &kp N9           &kp N0            &to 1
-&kp ESC    &kp B            &kp L            &kp D              &kp C         &kp V                                  &kp J                    &kp Y                  &kp O               &kp U            &kp DOT           &none
-&kp TAB    &hml LEFT_GUI N  &hml LEFT_ALT R  &hml LEFT_SHIFT T  &hml LCTRL S  &kp G                                  &kp P                    &hmr RCTRL H           &hmr RIGHT_SHIFT A  &hmr LEFT_ALT E  &hmr RIGHT_GUI I  &kp RIGHT_SHIFT
-&sk LSHFT  &kp X            &kp Q            &kp M              &kp W         &kp Z             &kp C_MUTE    &none  &kp K                    &kp F                  &kp SQT             &kp SEMICOLON    &kp COMMA         &none
-                            &none            &mo 3              &mo 3         &hml LCTRL SPACE  &mo 4         &mo 5  &hmr LEFT_ALT BACKSPACE  &hmr LA(LCTRL) RETURN  &mo 3               &none
+&kp ESC         &kp N1           &kp N2           &kp N3             &kp N4        &kp N5                                 &kp N6                   &kp N7                 &kp N8              &kp N9           &kp N0            &to 1
+&kp TAB         &kp B            &kp L            &kp D              &kp C         &kp V                                  &kp J                    &kp Y                  &kp O               &kp U            &kp DOT           &none
+&kp LEFT_SHIFT  &hml LEFT_GUI N  &hml LEFT_ALT R  &hml LEFT_SHIFT T  &hml LCTRL S  &kp G                                  &kp P                    &hmr RCTRL H           &hmr RIGHT_SHIFT A  &hmr LEFT_ALT E  &hmr RIGHT_GUI I  &kp RIGHT_SHIFT
+&sk LSHFT       &kp X            &kp Q            &kp M              &kp W         &kp Z             &kp C_MUTE    &none  &kp K                    &kp F                  &kp SQT             &kp SEMICOLON    &kp COMMA         &none
+                                 &none            &mo 3              &mo 3         &hml LCTRL SPACE  &mo 4         &mo 5  &hmr LEFT_ALT BACKSPACE  &hmr LA(LCTRL) RETURN  &mo 3               &none
             >;
 
             sensor-bindings =

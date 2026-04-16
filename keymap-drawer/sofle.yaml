@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - '`'
+  - Esc
   - '1'
   - '2'
   - '3'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - {t: qwerty, h: toggle}
-  - Esc
+  - ↹
   - B
   - L
   - D
@@ -25,7 +25,7 @@ layers:
   - U
   - .
   - ''
-  - ↹
+  - LEFT SHIFT
   - {t: N, h: LEFT GUI}
   - {t: R, h: LEFT ALT}
   - {t: T, h: LEFT SHIFT}
