@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: qwerty, h: toggle}
+  - DELETE
   - Esc
   - B
   - L
@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: qwerty, h: toggle}
   - ↹
   - Q
   - W
@@ -113,7 +113,7 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - ␣
   - ␣
   - {t: ▽, type: trans}
