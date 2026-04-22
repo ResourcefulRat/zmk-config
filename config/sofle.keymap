@@ -63,7 +63,7 @@
 
         qwerty_swap {
             if-layers = <4 5>;
-            then-layer = <4>;
+            then-layer = <1>;
         };
     };
 
