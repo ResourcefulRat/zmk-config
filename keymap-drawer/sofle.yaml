@@ -50,7 +50,7 @@ layers:
   - ''''
   - ;
   - ','
-  - ''
+  - {t: qwerty, h: toggle}
   - ''
   - hyperland
   - hyperland
