@@ -117,8 +117,8 @@
         hyprland_right {
             bindings = <
 &trans       &trans          &trans          &trans          &trans          &trans                            &trans                &trans                &trans                &trans                &trans                &trans
-&trans       &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))                    &kp RG(RS(NUMBER_6))  &kp LG(RG(NUMBER_7))  &kp RG(RS(NUMBER_8))  &kp RG(RS(NUMBER_9))  &kp RS(RG(NUMBER_0))  &trans
-&kp LG(TAB)  &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)                        &kp RG(RS(NUMBER_6))  &kp RG(RS(NUMBER_7))  &kp RG(NUMBER_8)      &kp RG(NUMBER_9)      &kp RG(N0)            &trans
+&trans       &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))                    &kp RG(RS(NUMBER_6))  &kp RG(RS(NUMBER_7))  &kp RG(RS(NUMBER_8))  &kp RG(RS(NUMBER_9))  &kp RS(RG(NUMBER_0))  &trans
+&kp LG(TAB)  &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)                        &kp RG(NUMBER_6)      &kp RG(NUMBER_7)      &kp RG(NUMBER_8)      &kp RG(NUMBER_9)      &kp RG(N0)            &trans
 &trans       &trans          &trans          &trans          &trans          &trans          &trans    &trans  &trans                &trans                &trans                &trans                &trans                &trans
                              &trans          &trans          &trans          &trans          &trans    &trans  &trans                &trans                &trans                &trans
             >;
