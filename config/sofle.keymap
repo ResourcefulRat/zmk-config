@@ -76,7 +76,7 @@
 &kp ESC    &kp B            &kp L            &kp D              &kp C         &kp V                                  &kp J                    &kp Y                  &kp O               &kp U            &kp DOT           &none
 &kp TAB    &hml LEFT_GUI N  &hml LEFT_ALT R  &hml LEFT_SHIFT T  &hml LCTRL S  &kp G                                  &kp P                    &hmr RCTRL H           &hmr RIGHT_SHIFT A  &hmr LEFT_ALT E  &hmr RIGHT_GUI I  &kp RIGHT_SHIFT
 &sk LSHFT  &kp X            &kp Q            &kp M              &kp W         &kp Z             &kp C_MUTE    &none  &kp K                    &kp F                  &kp SQT             &kp SEMICOLON    &kp COMMA         &to 1
-                            &none            &mo 3              &mo 3         &hml LCTRL SPACE  &mo 4         &mo 5  &hmr LEFT_ALT BACKSPACE  &hmr LA(LCTRL) RETURN  &mo 3               &none
+                            &none            &mo 3              &mo 3         &hml LCTRL SPACE  &mo 5         &mo 6  &hmr LEFT_ALT BACKSPACE  &hmr LA(LCTRL) RETURN  &mo 4               &none
             >;
 
             sensor-bindings =
@@ -104,13 +104,23 @@
             >;
         };
 
-        hyperland {
+        hyperland_left {
             bindings = <
 &trans       &trans          &trans          &trans          &trans          &trans                            &trans                  &trans                  &trans                &trans             &trans          &trans
 &trans       &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))                    &kp RS(RG(LEFT_ARROW))  &kp RS(RG(DOWN_ARROW))  &kp RS(RG(UP_ARROW))  &kp RS(RG(RIGHT))  &kp RS(RG(N0))  &trans
 &kp LG(TAB)  &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)                        &kp RG(LEFT)            &kp RG(DOWN_ARROW)      &kp RG(UP_ARROW)      &kp RG(RIGHT)      &kp RG(N0)      &trans
 &trans       &trans          &trans          &trans          &trans          &trans          &trans    &trans  &trans                  &trans                  &trans                &trans             &trans          &trans
                              &trans          &trans          &trans          &trans          &trans    &trans  &trans                  &trans                  &trans                &trans
+            >;
+        };
+
+        hyprland_right {
+            bindings = <
+&trans       &trans          &trans          &trans          &trans          &trans                            &trans                &trans                &trans                &trans                &trans                &trans
+&trans       &kp LS(LG(N1))  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))                    &kp RG(RS(NUMBER_6))  &kp LG(RG(NUMBER_7))  &kp RG(RS(NUMBER_8))  &kp RG(RS(NUMBER_9))  &kp RS(RG(NUMBER_0))  &trans
+&kp LG(TAB)  &kp LG(N1)      &kp LG(N2)      &kp LG(N3)      &kp LG(N4)      &kp LG(N5)                        &kp RG(RS(NUMBER_6))  &kp RG(RS(NUMBER_7))  &kp RG(NUMBER_8)      &kp RG(NUMBER_9)      &kp RG(N0)            &trans
+&trans       &trans          &trans          &trans          &trans          &trans          &trans    &trans  &trans                &trans                &trans                &trans                &trans                &trans
+                             &trans          &trans          &trans          &trans          &trans    &trans  &trans                &trans                &trans                &trans
             >;
         };
 
@@ -139,7 +149,7 @@
 &kp F1  &kp F2        &kp F3        &kp F4          &kp F5        &kp F6                              &kp F7    &kp F8    &kp F9  &kp F10    &kp F11  &kp F12
 &trans  &kp NUMBER_1  &kp N2        &kp N3          &kp N4        &kp N5                              &kp N6    &kp N7    &kp N8  &kp N9     &kp N0   &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL     &trans                              &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none    &trans
-&trans  &trans        &trans        &trans          &trans        &trans            &trans    &trans  &trans    &trans    &trans  &trans     &trans   &tog 5
+&trans  &trans        &trans        &trans          &trans        &trans            &trans    &trans  &trans    &trans    &trans  &trans     &trans   &tog 6
                       &trans        &trans          &kp LEFT_GUI  &kp LS(LEFT_GUI)  &trans    &trans  &trans    &trans    &trans  &trans
             >;
         };

@@ -52,14 +52,14 @@ layers:
   - ','
   - {t: qwerty, h: toggle}
   - ''
-  - hyperland
-  - hyperland
+  - hyperland_left
+  - hyperland_left
   - {t: ␣, h: '$$mdi:apple-keyboard-control$$'}
   - lower
   - raise
   - {t: BACKSPACE, h: LEFT ALT}
   - {t: RETURN, h: Alt+Ctrl}
-  - hyperland
+  - hyprland_right
   - ''
   qwerty:
   - ESCAPE
@@ -183,7 +183,7 @@ layers:
   - RETURN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  hyperland:
+  hyperland_left:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,6 +243,67 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  hyprland_right:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Gui+1
+  - Sft+Gui+2
+  - Sft+Gui+3
+  - Sft+Gui+4
+  - Sft+Gui+5
+  - Gui+Sft+6
+  - Gui+Gui+7
+  - Gui+Sft+8
+  - Gui+Sft+9
+  - Sft+Gui+0
+  - {t: ▽, type: trans}
+  - Gui+↹
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
+  - Gui+Sft+6
+  - Gui+Sft+7
+  - Gui+8
+  - Gui+9
+  - Gui+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   lower:
   - '~'
